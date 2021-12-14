@@ -16,8 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from polls.views import *
+from users.views import *
+from rest_framework.authtoken.views import obtain_auth_token
 
 urlpatterns = [
+    path("",include("users.urls")),
     path("",include("polls.urls")),
     path('admin/', admin.site.urls),
 ]
