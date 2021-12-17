@@ -34,7 +34,7 @@
                 <a class="nav-link nav-color" href="#sectionTravelAgency">Travel Agency</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-color" href="#sectionContact">Contact Us</a>
+                <a class="nav-link nav-color" href="sectionContact">Contact Us</a>
               </li>
               <li class="nav-item">
                 <form action=""  class="form1">
@@ -227,7 +227,7 @@
    </div>
    <!-- page 4-->
 <div class="contact-us-container text-white text-center" id="sectionContact">
-       <form action="register" method="post">
+       <form action="#sectionContact" method="post">
            {% csrf_token %}
            <h1 class="p-2">Get in touch</h1>
              <input placeholder="Name" type="text" class="contact-us-input" name="Name"/></br>
@@ -238,6 +238,7 @@
          <button class="contact-us-sendButton">SEND</button>
     </div>
            <h1>{{success}}</h1>
+           <h1>{{failure}}</h1>
        </form>
      </div>
 

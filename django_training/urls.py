@@ -23,7 +23,7 @@ from django.conf import  settings
 urlpatterns = [
 
     path("",view),
-    path("register",homePageView),
+    path("#sectionContact",homePageView),
     path('admin/', admin.site.urls),
 ]
 
