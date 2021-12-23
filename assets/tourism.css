@@ -138,6 +138,8 @@ button{
     margin-top: 23px;
 }
 
+
+
 /* section 1 */
 .size-carousel{
     height: 500px !important;
@@ -360,7 +362,7 @@ p{
 /* travel-agency*/
 
 .travel-agency-main-container{
-    background-image: url(assets/imgs/agency.jpg);
+    background-image: url(./imgs/agency.jpg);
     height: 100vh;
     background-size: cover;
     background-position: right bottom, left top;
@@ -387,15 +389,16 @@ p{
 
 /*contact-us-container */
 .contact-us-container{
-    background-image: url(assets/imgs/contact.jpg) !important;
+    background-image: url(./imgs/contact.jpg);
     background-size: cover !important;
     height: 70vh !important;
-    display:flex !important;
+    /*display:flex !important;
     flex-direction: column !important;
     justify-content: center !important;
     align-self: center !important;
     align-content: center !important;
     align-items: center !important;
+    */
 }
 
 .contact-us-input{
@@ -448,6 +451,7 @@ li{
     justify-content: center;
     color: #ffffff;
 }
+
 .getData_form{
     height:1000px
 }
